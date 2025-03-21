@@ -26,7 +26,7 @@ export const aboutMe: AboutMe = {
     "I'm a first-year <a href='https://usc.edu/'>MS candidate</a> working at the intersection of music and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
   email: "shrinidh@usc.edu",
   imageUrl:
-    "https://drive.google.com/uc?export=view&id=1rkHAdREEdD8jkmgUrY58amwcmuAz_24V",
+    "https://avatars.githubusercontent.com/u/66459886?s=400&u=bb66939efe343630e2a09da26f1a1730c45d4eca&v=4",
   googleScholarUrl: "https://scholar.google.com/citations?hl=en&user=Ykjb4AMAAAAJ",
   githubUsername: "shrinidhimahesh2001",
   linkedinUsername: "shrinidhi-mahesh-7680b41a5",
