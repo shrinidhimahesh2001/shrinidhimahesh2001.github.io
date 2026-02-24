@@ -9,14 +9,20 @@ export interface Portfolio {
 
 export const portfolioData: Portfolio[] = [
   // Example entry
-  /*{
-    title: "Causal Discovery Framework",
+  {
+    title: "Emotion Recognition on MTG-Jamendo Dataset",
     description:
-      "A framework for discovering causal relationships in high-dimensional time series data using state-of-the-art machine learning techniques.",
-    technologies: ["Python", "PyTorch", "React"],
-    projectUrl: "https://project-demo.com",
+      "A short experiment on classifying emotions in music using the MTG-Jamendo dataset. I trained a simple CNN model on the mel-spectrograms of the audio clips and achieved an accuracy of around 70%. The project is still a work in progress and I plan to explore more advanced architectures and techniques to improve the performance.",
+    technologies: ["Python", "PyTorch", "Librosa", "CNNs"],
+    projectUrl: "",
     imageUrl:
-      "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    codeUrl: "https://github.com/username/project",
-  },*/
+      "",
+    codeUrl: "https://github.com/shrinidhimahesh2001/EmoteTune",
+  },
+  {title: "Collection of Carnatic Music Performances and recordings",
+    description: "Over the years, I have been actively involved in performing Carnatic music. This collection includes audio recordings of practice sessions of traditional compositions.",
+    technologies: [],
+    imageUrl: "",
+    projectUrl: "https://on.soundcloud.com/hX4A131WN3CpRZv3IO",
+    codeUrl: ""}
 ];
