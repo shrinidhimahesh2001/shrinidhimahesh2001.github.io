@@ -2,7 +2,7 @@ export interface AboutMe {
   name: string;
   title: string;
   institution: string;
-  description: string | string[];
+  description: string;
   email: string;
   imageUrl?: string;
   soundcloudUrl?: string;
