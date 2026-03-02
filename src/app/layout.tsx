@@ -27,11 +27,19 @@ const ptSerif = PT_Serif({
 
 export const metadata: Metadata = {
   title: customMetadata.title || aboutMe.name,
-  description: customMetadata.description || aboutMe.description,
+  description: customMetadata.description || 
+    (Array.isArray(aboutMe.description) 
+      ? aboutMe.description.join(" ") 
+      : aboutMe.description),
   icons: {
     icon: "/favicon.ico",
   },
 };
+//  description: customMetadata.description || aboutMe.description,
+//  icons: {
+//    icon: "/favicon.ico",
+//  },
+//};
 
 export default function RootLayout({
   children,
