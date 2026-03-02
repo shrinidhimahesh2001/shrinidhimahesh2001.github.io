@@ -24,9 +24,7 @@ export const aboutMe: AboutMe = {
   institution: "University of Southern California",
   // Note that links work in the description
   description:[
-    "Hi there ! My name is Shrinidhi Mahesh and I am wrapping up a MS in EE from USC with my courses focused towards MLDS.",
-    "My technical background combines Cloud Data Engineering production experience at Deloitte along with rigorous graduate coursework at USC in Deep Learning, Machine Learning, Reinforcement Learning and LLMs and Speech Processing.",
-    "I have also been passionately training in Carnatic Music as a vocalist for the past 10+ years which drives my interest for Music Information Retrieval (MIR) and Audio ML."
+    "Hi there ! My name is Shrinidhi Mahesh and I am wrapping up a MS in EE from USC with my courses focused towards MLDS. My technical background combines Cloud Data Engineering production experience at Deloitte along with rigorous graduate coursework at USC in Deep Learning, Machine Learning, Reinforcement Learning and LLMs and Speech Processing. I have also been passionately training in Carnatic Music as a vocalist for the past 10+ years which drives my interest for Music Information Retrieval (MIR) and Audio ML."
   ],
   email: "shrinidhimdev@gmail.com",
   imageUrl:
