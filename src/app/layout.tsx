@@ -25,13 +25,19 @@ const ptSerif = PT_Serif({
   weight: ["400", "700"],
 });
 
+//export const metadata: Metadata = {
+//  title: customMetadata.title || aboutMe.name,
 export const metadata: Metadata = {
-  title: customMetadata.title || aboutMe.name,
-  description: customMetadata.description || (Array.isArray(aboutMe.description) ? aboutMe.description.join(". ") : aboutMe.description),
-  icons: {
-    icon: "/favicon.ico",
-  },
-};
+    title: customMetadata.title || aboutMe.name,
+    description: customMetadata.description || 
+      `${Array.isArray(aboutMe.description) ? aboutMe.description.join(" ") : aboutMe.description}`,
+    icons: {
+      icon: "/favicon.ico",
+    },
+  };
+  //description: customMetadata.description || (Array.isArray(aboutMe.description) ? aboutMe.description.join(". ") : aboutMe.description),
+  //icons: {
+  //  icon: "/favicon.ico",
 //  description: customMetadata.description || aboutMe.description,
 //  icons: {
 //    icon: "/favicon.ico",
