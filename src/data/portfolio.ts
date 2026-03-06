@@ -10,6 +10,15 @@ export interface Portfolio {
 export const portfolioData: Portfolio[] = [
   // Example entry
   {
+    title: "Foundation Model for Marine Mammal Vocalization and Classification [In Progress]",
+    description:["This project involved training a foundation model on a large dataset of marine mammal vocalizations, including whales and dolphins. The model was designed to learn general representations of the vocalizations, which could then be fine-tuned for specific tasks such as species classification and behavior analysis.",],
+    technologies: ["Python", "PyTorch", "wav2vec2.0", "HuBERT","Hugging Face Transformers"],
+    projectUrl: "",
+    imageUrl:
+      "",
+    codeUrl: "",
+  },
+  {
     title: "Emotion Recognition on MTG-Jamendo Dataset",
     description:[
       "A short experiment on classifying emotions in music using the MTG-Jamendo dataset.",
@@ -29,6 +38,7 @@ export const portfolioData: Portfolio[] = [
     imageUrl: "",
     projectUrl: "https://on.soundcloud.com/hX4A131WN3CpRZv3IO",
     codeUrl: ""},
+    
   {title: "Collection of cover songs",
     description: "A lot of random musings and bathroom singing sessions recorded over the years. This collection includes a mix of popular songs in various Indian languages.",
     technologies: [],
